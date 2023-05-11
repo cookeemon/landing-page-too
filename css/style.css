@@ -1,0 +1,233 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+/*------------------ Header Section ------------------*/
+
+/* Top Header Section */
+.header {
+    background-color: #2A2F4F;
+    padding: 22px 500px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.header-top ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.header-top a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+
+/* Bottom Header Section */
+
+.header-bot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+}
+
+.header-text .title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+/* Applies to all secondary texts */
+p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-text p {
+    max-width: 400px;
+}
+.header-text button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 0px;
+    width: 150px;
+}
+
+.header-text button:hover {
+    cursor: pointer;
+    background-color: #1a448e;
+}
+
+.header-bot img {
+    display: flex;
+    flex-shrink: 0;
+    max-width: 40%;
+    min-width: 40%;
+    height: auto;
+    transform: rotate(90deg);
+    margin-right: 150px;
+}
+
+/*------------------ Content Body Section ------------------*/
+
+/* Top Content Section */
+
+.content-top {
+    background-color: #917FB3;
+    padding: 24px;
+}
+
+.content-top .title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.content-top .cards {
+    display: flex;
+    flex: 1;
+    gap: 200px;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.content-top .info {
+    text-align: center;
+}
+
+.content-top .card {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border: 5px;
+    border-color: #FDE2F3;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.card.first {
+    background-color: rgba(189, 3, 3, 0.689);
+}
+
+.card.second {
+    background-color: #3882F6;
+}
+
+.card.third {
+    background-color: rgb(222, 222, 1);
+}
+
+.card.fourth {
+    background-color: rgb(35, 35, 35);
+}
+
+/* Middle Content Section */
+
+.content-mid {
+    background-color: #E5BEEC;
+    padding: 50px;
+}
+
+.content-mid .quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.content-mid .author {
+    font-weight: 500;
+    font-style: normal;
+    padding: 12px;
+    margin-left: 300px
+}
+
+/* Bottom Content Section */
+
+.content-bot {
+    background-color: #FDE2F3;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-bot .sign-up {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.content-bot .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-bot .hero {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding: 0;
+}
+
+.content-bot p {
+    width: 400px
+}
+
+.content-bot button {
+    background-color: #3882F6;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 8px;
+    border-color: #ffffff;
+    border-style: solid;
+    padding: 10px 0px;
+    width: 120px;
+    height: 50px;
+    align-self: center;
+}
+
+.content-bot button:hover {
+    cursor: pointer;
+    background-color: #1a448e;
+}
+
+/*----------------- Footer ---------------------*/
+
+.footer {
+    padding: 12px;
+    background-color: #2A2F4F;
+    text-align: center;
+}
