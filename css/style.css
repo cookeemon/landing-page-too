@@ -82,14 +82,20 @@ p {
     background-color: #1a448e;
 }
 
-.header-bot img {
-    display: flex;
-    flex-shrink: 0;
-    max-width: 40%;
-    min-width: 40%;
-    height: auto;
-    transform: rotate(90deg);
+.header-bot .img-container {
+    width: 700px;
+    height: 1000px;
     margin-right: 150px;
+    display: flex;
+    margin-left: 200px;
+}
+
+.header-bot img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: rotate(90deg);
+    
 }
 
 /*------------------ Content Body Section ------------------*/
